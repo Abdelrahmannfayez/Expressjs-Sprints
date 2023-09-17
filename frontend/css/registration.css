@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 85px;
+}
+#pal
+{
+color:#b10505;
+}
+h3{
+    font-size: 25px;
+   
+    padding-left: 20px;
+
+}
+.logo
+{
+    text-decoration: none;
+    color:white;
+}

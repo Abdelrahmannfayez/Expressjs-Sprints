@@ -1,0 +1,161 @@
+/* CSS Reset (optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 85px;
+}
+header ul {
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+nav ul li:hover
+{
+    color:#b10505;
+   font-weight: bolder;
+}
+.logo
+{
+    text-decoration: none;
+    color:white;
+}
+h3{
+    font-size: 25px;
+   
+    padding-left: 20px;
+
+}
+nav {
+    padding-left: 25%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    padding-left: 30px;
+}
+#pal
+{
+color:#b10505;
+}
+
+.account {
+    display: flex;
+    list-style: none;
+    padding-left: 35%;
+    margin-top: 20px;
+}
+
+.account li a{
+    padding: 13px;
+    text-decoration: none;
+    color: white;
+}
+.account li a:hover{
+   
+    color:#b10505;
+  
+}
+.main-movie {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 242, 242, 0.1)), url("../images/spiderman.webp");
+    height: 90vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.M-title {
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 60px;
+    color: #b10505;
+}
+.M-desc {
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.Wtrailer {
+    position: relative;
+    padding-top: 20px;
+    left: 25px;
+}
+
+.container {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5;
+   
+    background-color: #090909;
+    border-radius: 15px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b10505;
+}
+#sp{
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#no-way
+{
+    font-family:"Brush Script MT", cursive
+}
+.R-container{
+    display: flex;
+    align-items: center;
+   
+    width:250px;
+    justify-content: space-between;
+    position: relative;
+    left: 30px;
+}
+.IMDB
+{
+   background-color:#f3ce13 ;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: larger;
+   width: 45px;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 4px;
+}
+.L-I{text-decoration: none;
+    color: black;
+
+}
